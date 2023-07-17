@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="BlackBee Global">
+
+  <title>Taylor Suite</title>
+
+  <!-- Fav Icon -->
+  <link rel="icon" type="image/x-icon" href="assets/imgs/logo/BBfavicon.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+
+  <!-- All CSS files -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="assets/css/progressbar.css">
+  <link rel="stylesheet" href="assets/css/meanmenu.min.css">
+  <link rel="stylesheet" href="assets/css/master.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+  <!-- Cursor Animation -->
+  <div class="cursor1"></div>
+  <div class="cursor2"></div>
+
+
+
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="loading">
+      <div class="bar bar1"></div>
+      <div class="bar bar2"></div>
+      <div class="bar bar3"></div>
+      <div class="bar bar4"></div>
+      <div class="bar bar5"></div>
+      <div class="bar bar6"></div>
+      <div class="bar bar7"></div>
+      <div class="bar bar8"></div>
+    </div>
+  </div>
+
+
+
+  <!-- Switcher Area Start -->
+  <div class="switcher__area">
+    <div class="switcher__icon">
+      <button id="switcher_open"><i class="fa-solid fa-gear"></i></button>
+      <button id="switcher_close"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+
+    <div class="switcher__items">
+      <div class="switcher__item">
+        <div class="switch__title-wrap">
+          <h2 class="switcher__title">Cursor</h2>
+        </div>
+        <div class="switcher__btn">
+          <select name="cursor-style" id="cursor_style">
+            <option value="1">default</option>
+            <option selected value="2">animated</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="switcher__item">
+        <div class="switch__title-wrap">
+          <h2 class="switcher__title">mode</h2>
+        </div>
+        <div class="switcher__btn mode-type wc-col-2">
+          <button class="active" data-mode="light">light</button>
+          <button data-mode="dark">dark</button>
+        </div>
+      </div>
+
+      <div class="switcher__item">
+        <div class="switch__title-wrap">
+          <h2 class="switcher__title">Language Support</h2>
+        </div>
+        <div class="switcher__btn lang_dir wc-col-2">
+          <button class="active" data-mode="ltr">LTR</button>
+          <button data-mode="rtl">RTL</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Switcher Area End -->
+
+
+
+  <!-- Scroll Smoother -->
+  <div class="has-smooth" id="has_smooth"></div>
+
+
+  <!-- Go Top Button -->
+  <button id="scroll_top" class="scroll-top"><i class="fa-solid fa-arrow-up"></i></button>
+
+
+  <!-- Header area start -->
+  <header class="header__area-3">
+    <div class="header__inner-3">
+      <div class="header__logo-2">
+        <a href="index.html" class="logo-dark"><img src="assets/imgs/logo/Layer 2-1.png" alt="Site Logo"></a>
+        <a href="index.html" class="logo-light"><img src="assets/imgs/logo/Layer 2 2.png" alt="Site Logo"></a>
+      </div>
+      <div class="header__nav-2">
+        <ul class="main-menu-3 menu-anim">
+          <li class="has-megamenu"><a href="index.html">home</a>
+          </li>
+          <li><a href="about.html">about</a></li>
+          <li class="has-megamenu"><a href="index-13.html">Projects</a>
+          </li>
+          <li><a href="service-4.html">services</a>
+          </li>
+          <li><a href="team.html">team</a>
+          </li>
+          <li><a href="contact.html">contact</a></li>
+        </ul>
+      </div>
+      <div class="header__nav-icon-3">
+        <button class="search-icon" id="search_icon"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <button class="search-icon" id="search_close"><i class="fa-solid fa-xmark"></i></button>
+        <button id="open_offcanvas"><img src="assets/imgs/icon/menu-black.png" alt="Menubar Icon"></button>
+      </div>
+    </div>
+  </header>
+  <div class="header__search">
+    <form action="#">
+      <input type="text" name="s" id="s" placeholder="Search..">
+    </form>
+  </div>
+  <!-- Header area end -->
+
+
+  <!-- Offcanvas area start -->
+  <div class="offcanvas__area">
+    <div class="offcanvas__body">
+      <div class="offcanvas__left">
+        <div class="offcanvas__logo">
+          <a href="index.html"><img src="assets/imgs/logo/site-logo-white-2.png" alt="Offcanvas Logo"></a>
+        </div>
+        <div class="offcanvas__social">
+          <h3 class="social-title">Explore</h3>
+          <ul>
+            <li><a href="#">Dribbble</a></li>
+            <li><a href="#">Behance</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">YouTube</a></li>
+          </ul>
+        </div>
+        <div class="offcanvas__links">
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">contact</a></li>
+            <li><a href="career.html">Career</a></li>
+            <li><a href="blog.html">blog</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="offcanvas__mid">
+        <div class="offcanvas__menu-wrapper">
+          <nav class="offcanvas__menu">
+            <ul class="menu-anim">
+              <li><a href="index-13.html">home</a></li>
+              <li><a href="about.html">about</a></li>
+              <li><a href="index-13.html">Projects</a></li>
+              <li><a href="service-4.html">Service</a></li>
+              <li><a href="team.html">Team</a></li>
+              <li><a href="contact.html">contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="offcanvas__right">
+        <div class="offcanvas__search">
+          <form action="#">
+            <input type="text" name="search" placeholder="Search keyword">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+          </form>
+        </div>
+        <div class="offcanvas__contact">
+          <h3>Enquire Now!</h3>
+          <ul>
+            <li><a href="tel:+918754326045">+91 87543 26045</a></li>
+            <li><a href="grow@blackbeedesigns.com">grow@blackbeedesigns.com</a></li>
+            <li>India | US | UAE | UK</li>
+          </ul>
+        </div>
+        <img src="assets/imgs/shape/33.png" alt="shape" class="shape-1">
+        <img src="assets/imgs/shape/34.png" alt="shape" class="shape-2">
+      </div>
+      <div class="offcanvas__close">
+        <button type="button" id="close_offcanvas"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+    </div>
+  </div>
+  <!-- Offcanvas area end -->
+
+
+
+  <div id="smooth-wrapper">
+    <div id="smooth-content">
+      <main>
+
+        <!-- Portfolio area start -->
+        <section class="portfolio__detail">
+          <div class="portfolio__detail-top">
+            <div class="container g-0 line pt-110 pb-130">
+              <span class="line-3"></span>
+
+              <div class="row">
+                <div class="col-xxl-8 col-xl-8 col-lg-7 col-md-7">
+                  <div class="sec-title-wrapper"><br><br>
+                    <h2 class="sec-title-4 title-anim">Klara<br><span>Clinic</span></h2>
+                  </div>
+                </div>
+
+                <div class="col-xxl-4 col-xl-4 col-lg-5 col-md-5">
+                  <div class="portfolio__detail-info">
+                    <ul>
+                      <li>Category <span>Branding</span></li>
+                      <li>Growth <span>300% ↑</span></li>
+                      <li>Convertion Rate <span>37%</span></li>
+                      <li>Impressions <span>4 Million+</span></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio__detail-thumb">
+            <img src="assets/imgs/portfolio/detail klara/Slice 17.jpg" alt="Portfolio Thumbnail" data-speed="auto">
+          </div>
+
+          <div class="portfolio__detail-content">
+            <div class="container g-0 line pt-140">
+              <span class="line-3"></span>
+
+              <div class="block-content">
+                <div class="row">
+                  <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
+                    <h2 class="portfolio__detail-title title-anim">Build, streamline and
+                      evolve together with
+                      solution</h2>
+                  </div>
+
+                  <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
+                    <div class="portfolio__detail-text">
+                      <p>Klara Skin & Hair Clinic, a leading skincare clinic, sought our digital marketing expertise to elevate their 
+                        online presence and attract a wider clientele. With a commitment to providing exceptional skincare and hair solutions, 
+                        Klara Skin & Hair Clinic needed a comprehensive digital marketing strategy to reach their target audience and establish 
+                        themselves as a trusted authority in the industry. This case study highlights our tailored approach and the significant 
+                        results achieved through our digital marketing services.</p><br>
+
+                      <h4>Objectives</h4><br> 
+                      <ul>
+                        <li>+ Increase brand awareness and reach a larger audience.</li>
+                        <li>+ Drive traffic to the clinic's website and generate qualified leads.</li>
+                        <li>+ Improve search engine visibility and organic rankings.</li>
+                        <li>+ Enhance customer engagement and conversions.</li>
+                        <li>+ Optimize social media presence and leverage influencer partnerships.</li>
+                        <li>+ Maximize return on investment (ROI) through targeted campaigns.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="block-thumb">
+                <img src="assets/imgs/portfolio/detail klara/Group 13.png" alt="Portfolio Image" data-speed="0.5">
+              </div>
+
+              <div class="block-content  pt-140">
+                <div class="row">
+                  <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
+                    <h2 class="portfolio__detail-title title-anim">Strategy and Implementation</h2>
+                  </div>
+
+                  <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
+                    <div class="portfolio__detail-text">
+                      <h4>Website Optimization</h4><br> 
+                      <p>Conducted a thorough website audit to identify areas for improvement.
+                        Implemented SEO best practices to optimize on-page elements, including meta tags, headings, and content.
+                        Enhanced site structure, navigation, and user experience for seamless browsing.
+                        Integrated lead capture forms and optimized landing pages to encourage conversions.
+                        Implemented responsive design to ensure a mobile-friendly experience
+                      </p><br>
+
+                      <h4>Content Marketing</h4><br> 
+                      <p>Developed a content strategy focusing on educating and empowering the target audience.
+                        Created informative blog posts, articles, and guides on skincare tips, hair care advice, and industry trends.
+                        Utilized visually appealing content, including before-and-after photos, infographics, and videos to showcase treatments and results.
+                        Conducted keyword research to optimize content for search engines and increase organic traffic
+                      </p><br>
+
+                      <div class="fonts">
+                        <img src="assets/imgs/portfolio/detail klara/Klara logo 1.png" alt="Font Style">
+                        <ul>
+                          <li class="regular"><span>regular</span> This is text message</li>
+                          <li class="medium"><span>Medium</span> Medium typography</li>
+                          <li class="semibold"><span>SemiBold</span> Just Amazing</li>
+                          <li class="blod"><span>Blod</span> Awesome</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="block-gallery">
+                <img src="assets/imgs/portfolio/detail klara/Group 11.jpg" alt="Portfolio Image">
+                <img src="assets/imgs/portfolio/detail klara/Group 12.jpg" alt="Portfolio Image">
+              </div>
+
+              <div class="single__thumb">
+                <video loop muted autoplay playsinline>
+                  <source src="assets/imgs/portfolio/detail klara/Klara Moc3.mp4" type="video/mp4">
+                </video>
+              </div>
+              <br>
+              <div class="block-img-text">
+                <img src="assets/imgs/portfolio/detail klara/klgif1.gif" alt="Portfolio Image">
+                <img src="assets/imgs/portfolio/detail klara/KL Vid mock2.gif" alt="Portfolio Image">
+                <p>We further improved their content strategy by including more educational content and promoting customer reviews and testimonials, as well as utilizing influencer partnerships or paid advertising to increase their reach and follower count. </p>
+              </div>
+
+              <div class="block-content  pt-140">
+                <div class="row">
+                  <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
+                    
+                  </div>
+              <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
+                <div class="portfolio__detail-text">
+                  <h4>Social Media Marketing</h4><br> 
+                  <p>Identified key social media platforms popular among the target audience (e.g., Instagram, Facebook).
+                    Developed a social media calendar to maintain a consistent posting schedule.
+                    Created engaging and educational content, including skincare tips, client testimonials, and product recommendations.
+                    Fostered community engagement by responding to inquiries, addressing concerns, and encouraging user-generated content.
+                    Collaborated with relevant influencers and beauty experts to amplify the clinic's brand and reach a wider audience.
+                  </p><br>
+                </div>
+              </div>
+
+              <div class="block-thumb">
+                <img src="assets/imgs/portfolio/detail/5.jpg" alt="Portfolio Image" data-speed="0.5">
+              </div>
+              <br> 
+
+              <div class="block-content  pt-140">
+                <div class="row">
+                  <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
+                    <h2 class="portfolio__detail-title title-anim">Result</h2>
+                  </div>
+
+                  <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
+                    <div class="portfolio__detail-text">
+                      <h4>Increased Website Traffic</h4><br>
+                      <ul>
+                        <li>+ Achieved a 40% increase in organic traffic within the first six months.</li>
+                        <li>+ Generated a 45% increase in paid search traffic through well-optimized PPC campaigns.</li>
+                      </ul><br>
+                      <h4>Enhanced Brand Visibility and Engagement</h4><br>
+                      <ul>
+                        <li>+ Experienced a 70% growth in social media followers across all platforms.</li>
+                        <li>+ Achieved a 55% rise in post engagement and user interactions.</li>
+                      </ul><br>
+                      <h4>Higher-Quality Leads and Conversions</h4><br>
+                      <ul>
+                        <li>+ Achieved a 65% increase in lead generation through optimized landing pages and forms.</li>
+                        <li>+ Improved conversion rates from website visitors to customers by 30%.</li>
+                      </ul><br>
+                      <h4>Improved Search Engine Rankings</h4><br>
+                      <ul>
+                        <li>+ Attained first-page rankings for targeted keywords, resulting in increased organic visibility.</li>
+                      </ul><br><br><br>
+                      <h4>Conclusion</h4><br>
+                      <p>By implementing a customized digital marketing strategy tailored to Taylor Suite's unique requirements, 
+                        we successfully elevated brand visibility, attracted high-quality traffic to the website, and generated valuable leads. 
+                        Our efforts in website optimization, content marketing, social media engagement, and PPC advertising yielded remarkable 
+                        results, establishing Taylor Suite as a prominent player in the bespoke suit industry. We remain dedicated to refining 
+                        our strategies and collaborating closely with Taylor Suite to ensure continued success in their digital marketing endeavors.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12">
+                  <div class="portfolio__detail-btns pt-150 pb-150">
+                    <a href="portfolio-details.html" class="wc-btn-primary btn-hover"><span></span> Prev Work</a>
+                    <a href="portfolio-details.html" class="wc-btn-primary btn-hover"><span></span> Next Work</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </section>
+        <!-- Portfolio area end -->
+
+      </main>
+
+
+
+      <!-- Footer area start -->
+      <footer class="footer__area">
+        <div class="footer__top">
+          <div class="container footer-line"></div>
+          <img src="assets/imgs/thumb/footer.jpg" alt="Footer Image" data-speed="0.5">
+        </div>
+
+        <div class="footer__btm">
+          <div class="container">
+            <div class="row footer__row">
+              <div class="col-xxl-12">
+                <div class="footer__inner">
+                  <div class="footer__widget">
+                    <img class="footer__logo" src="assets/imgs/logo/footer-logo-white.png" alt="Footer Logo">
+                    <p>Even small businesses with limited budgets can still compete with larger businesses in their industry.
+                      We work with each of our clients to create custom strategies that maximize their return on investment while staying within their budget.</p>
+                    <ul class="footer__social">
+                      <li><a href="#"><span><i class="fa-brands fa-facebook-f"></i></span></a></li>
+                      <li><a href="#"><span><i class="fa-brands fa-twitter"></i></span></a></li>
+                      <li><a href="#"><span><i class="fa-brands fa-instagram"></i></span></a></li>
+                      <li><a href="#"><span><i class="fa-brands fa-linkedin"></i></span></a></li>
+                    </ul>
+                  </div>
+
+                  <div class="footer__widget-2">
+                    <h2 class="footer__widget-title">Information</h2>
+                    <ul class="footer__link">
+                      <li><a href="about.html">About Company</a></li>
+                      <li><a href="index-13.html">Case Study</a></li>
+                      <li><a href="career.html">Career</a></li>
+                      <li><a href="blog.html">blog</a></li>
+                      <li><a href="contact.html">contact</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="footer__widget-3">
+                    <h2 class="footer__widget-title">Contact Us</h2>
+                    <ul class="footer__contact">
+                      <li>INDIA  -  UK  -  US  -  UAE</li>
+                      <li><a href="tel:+918754326045" class="phone">+91 87543 26045 </a></li>
+                      <li><a href="mailto:grow@blackbeedesigns.com">info@blackbeedesigns.com</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="footer__widget-4">
+                    <h2 class="project-title">Have a project in your mind?</h2>
+                    <div class="btn_wrapper">
+                      <a href="contact.html" class="wc-btn-primary btn-hover btn-item"><span></span> Contact Us! <i
+                          class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                    <h3 class="contact-time">12 : 00 AM - 12 : 00 PM</h3>
+                    <h4 class="contact-day">Weekdays & Weekends</h4>
+                  </div>
+
+                  <div class="footer__copyright">
+                    <p>© 2020 - 2023 | All rights reserved by <a href="index.html"
+                        target="_blank">BlackBee</a>
+                    </p>
+                  </div>
+
+                  <div class="footer__subscribe">
+                    <form action="#">
+                      <input type="email" name="email" placeholder="Enter your email">
+                      <button type="submit" class="subs-btn"><i class="fa-solid fa-paper-plane"></i></button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- Footer area end -->
+
+
+    </div>
+  </div>
+
+
+
+  <!-- All JS files -->
+  <script src="assets/js/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/swiper-bundle.min.js"></script>
+  <script src="assets/js/counter.js"></script>
+  <script src="assets/js/gsap.min.js"></script>
+  <script src="assets/js/ScrollTrigger.min.js"></script>
+  <script src="assets/js/ScrollToPlugin.min.js"></script>
+  <script src="assets/js/ScrollSmoother.min.js"></script>
+  <script src="assets/js/SplitText.min.js"></script>
+  <script src="assets/js/chroma.min.js"></script>
+  <script src="assets/js/mixitup.min.js"></script>
+  <script src="assets/js/vanilla-tilt.js"></script>
+  <script src="assets/js/jquery.meanmenu.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
